@@ -1,0 +1,13 @@
+Folders structure (test folder):
+├── data
+│   ├── test
+│   │   ├── MEDB_Full1
+│   │   │   ├── contains voltage data for a cell generated under perfect irradiance with config parameters slightly different from the one used in the training set
+│   │   ├── MEDB_Irr1
+│   │   │   ├── */21 for 3/6/9/12 - 21/3, 21/6, 21/9, 21/12 - cells 1,2,3,4
+│   │   ├── MEDB_IrrM1
+│   │   │   ├── every month - two different cells - cells number: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28
+│   │   ├── MEDB_Cloud1
+│   │   │   ├── cloudy data - pairing with training data (train/cloudy):	A - 38-30, 39-31, 40-29, 47-56, 48-57, 49-58
+																			B - 41-33, 42-34, 43-32, 50-59, 51-60, 52-61
+																			C - 44-35, 45-37, 46-36, 53-62, 54-63, 55-64
