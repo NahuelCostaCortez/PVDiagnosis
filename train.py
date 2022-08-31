@@ -1,8 +1,3 @@
-'''
-Training of the selected models. 
-No hyperparameter tuning is performed as they were implemented as stated in their corresponding papers.
-'''
-
 import numpy as np
 from models import RandomForest, CNN_1D, FFN, XGBoost
 
